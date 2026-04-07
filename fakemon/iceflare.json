@@ -1,0 +1,79 @@
+{
+  "id": "iceflare",
+  "name": "Iceflare",
+  "createdBy": "Max Mallory",
+  "emoji": "❄️🔥",
+  "type": "Fire",
+
+  "hp": 400,       
+  "power": 400,    
+  "speed": 100,    
+  "defense": 99, 
+  "accuracy": 100, 
+
+  "description": "A short description of your Fakemon.",
+
+  "moves": [
+
+    {
+      "id": "flare_blitz",
+      "name": "Flare Blitz",
+      "desc": "A fire attack",
+      "speed": "medium",
+      "damage": [220, 250],
+      "status": "burn",
+      "statusChance": 1
+    },
+
+    {
+      "id": "icicle_crash",
+      "name": "Icicle Crash",
+      "desc": "a slow, big move that does so much damage it makes them fall asleep.",
+      "speed": "slow",
+      "damage": [360, 400],
+      "status": "sleep",
+      "statusChance": 1
+    },
+
+    {
+      "id": "searing_speed",
+      "name": "Searing Speed",
+      "desc": "An extremely fast move that does small ammounts of damage, and lowers opponents stats",
+      "speed": "fast",
+      "damage": [150, 200],
+      "status": "statdown",
+      "statusChance": 1
+    },
+
+    {
+      "id": "recover",
+      "name": "💊 Recover",
+      "desc": "Restore HP.",
+      "speed": "slow",
+      "damage": [-200, -375],
+      "status": "statup",
+      "statusChance": 0.5
+    },
+
+    {
+      "id": "heat_up",
+      "name": "Heat up",
+      "desc": "Increases your attack by 1",
+      "speed": "medium",
+      "damage": [0, 0],
+      "status": "statup",
+      "statusChance": 1.0
+    },
+
+    {
+      "id": "burning_stab",
+      "name": "Burning Stab",
+      "desc": "Flinches the opponent",
+      "speed": "fast",
+      "damage": [50, 100],
+      "status": "flinch",
+      "statusChance": 1.0
+    }
+    
+  ]
+}
