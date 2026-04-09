@@ -1,0 +1,60 @@
+  {
+  "id": "yourfakemon",
+  "name": "Bes25",
+  "createdBy": "Besrat Fikre",
+  "emoji": "🐲",
+  "type": "Fire",
+
+  "hp": 140,
+  "power": 125,
+  "speed": 200,
+  "defense": 35,
+  "accuracy": 91,
+
+  "description": "A short description of your Fakemon.",
+
+  "moves": [
+
+    {
+      "id": "move_one",
+      "name": "🔥 Finisher",
+      "desc": "A slashing attack to parylyze the opponent.",
+      "speed": "fast",
+      "damage": [14, 20],
+      "status": "burn",
+      "statusChance": 0.35
+    },
+
+    {
+      "id": "move_two",
+      "name": "⚔️ RKO TSUNAMI",
+      "desc": "A lightning-fast water slap.",
+      "speed": "fast",
+      "damage": [22, 28],
+      "status": null,
+      "statusChance": 0.55
+    },
+
+    {
+      "id": "move_three",
+      "name": "💊 Health Power+",
+      "desc": "Restore 45 HP.",
+      "speed": "slow",
+      "damage": [-45, -45],
+      "status": null,
+      "statusChance": 0
+    },
+
+    {
+      "id": "move_four",
+      "name": "😵 Burner",
+      "desc": "Burns the enemy's brain. A lot of damage and chaos.",
+      "speed": "fast",
+      "damage": [32, 38],
+      "status": "burn",
+      "statusChance": 1.0
+    }
+
+  ]
+}
+  
