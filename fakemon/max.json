@@ -7,8 +7,8 @@
 
   
   "hp": 500,       
-  "power": 300,    
-  "speed": 300,     
+  "power": 500,    
+  "speed": 500,     
   "defense": 1,
   "accuracy": 100,
 
@@ -23,7 +23,7 @@
       "name": "Glass Shard",
       "desc": "A slashing attack with a chance to burn with its immense speed",
       "speed": "fast",
-      "damage": [50, 50],
+      "damage": [150, 150],
       "status": "burn",
       "statusChance": 1.00
     },
@@ -34,7 +34,7 @@
       "name": "⚔️ Quick Slash",
       "desc": "A lightning-fast claw swipe. No frills.",
       "speed": "fast",
-      "damage": [100, 100],
+      "damage": [300, 300],
       "status": "paralize",
       "statusChance": 0.20
     },
@@ -58,6 +58,7 @@
       "speed": "medium",
       "damage": [10, 10],
       "status": "statup",
+      "statTarget" : "atk",
       "statusChance": 1.0
     }
 
