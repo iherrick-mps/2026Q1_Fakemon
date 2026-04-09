@@ -14,7 +14,7 @@
   "moves": [
     {
       "id":           "poisonscratch",
-      "name":         "🔥 Poison Scratch",
+      "name":         "☠️ Poison Scratch",
       "desc":         "A poisonous scratch.",
       "speed":        "high",
       "damage": [10, 60],
