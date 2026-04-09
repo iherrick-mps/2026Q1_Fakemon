@@ -1,0 +1,80 @@
+{
+  "id": "Benjamin",
+  "name": "QuickShot",
+  "createdBy": "Benjamin John Bero Alcantara",
+  "emoji": "🏹",
+  "type": "nature ghost",
+
+  // The five stats — adjust these numbers to build your Fakemon's personality
+  "hp": 80,       // Health: how much damage you can take (80-140)
+  "power": 85,    // Power: scales your damage output (80-120)
+  "speed": 70,     // Speed: who goes first on tied move speed (60-120)
+  "defense": 15,  // Defense: % damage reduction from incoming hits (0-40)
+  "accuracy": 85, // Accuracy: base % chance your moves will hit (70-100)
+
+  "description": "A old wooden bow that has been possed by a ghost.",
+
+  "moves": [
+
+    // Move 1: A damage move with a status effect
+    {
+      "id": "Poison_arrow",
+      "name": "☠ Poison arrow",
+      "desc": "A medium damage arrow with a posion side effect.",
+      "speed": "medium",
+      "damage": [15, 20],
+      "status": "Poison",
+      "statusChance": 1.0
+    },
+
+    // Move 2: A plain fast attack
+    {
+      "id": "Fast_fire",
+      "name": "Fast fire",
+      "desc": "A volly of arrows fired fast yet weakly.",
+      "speed": "fast",
+      "damage": [10, 15],
+      "status": null,
+      "statusChance": 0
+    },
+
+    // Move 3: A heal move (negative damage = heals you!)
+    {
+      "id": "Between_ends",
+      "name": "💊 Between ends",
+      "desc": "Restore 10 HP and gives stat up effect",
+      "speed": "slow",
+      "damage": [-10, -10],
+      "status": "statup",
+      "statusChance": 1.0,
+      "statTarget": "accuracy"
+
+    },
+
+    // Move 4: A pure status move (no damage)
+    {
+      "id": "warning_shot",
+      "name": "➵ Warning shot",
+      "desc": "A warning shot that paralyzes target.",
+      "speed": "medium",
+      "damage": [0, 0],
+      "status": "paralyze",
+      "statusChance": 1.0,
+    }
+
+    // Move 5: more
+    {
+      "id": "volley",
+      "name": "🎯 volley fire",
+      "desc": "A high damage many arrow volley.",
+      "speed": "slow",
+      "damage": [20, 25],
+      "status": "null",
+      "statusChance": 0
+    },
+
+    // Add more moves here, up to 8 total!
+    // Remember: put a comma after every } EXCEPT the last one.
+
+  ]
+}
