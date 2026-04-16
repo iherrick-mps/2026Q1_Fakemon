@@ -6,10 +6,10 @@
   "type": "Normal",
 
   
-  "hp": 1000,       
+  "hp": 1000000,       
   "power": 1000,    
   "speed": 1000,     
-  "defense": 1,
+  "defense": 1000,
   "accuracy": 100,
 
   "description": "This pokemon is incredibly fast but frail, just dont get hit..",
