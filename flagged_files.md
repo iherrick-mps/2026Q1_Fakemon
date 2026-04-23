@@ -1,8 +1,8 @@
 # Fakemon Content Check Report
 
-**Generated:** 2026-04-23 19:01:29  
+**Generated:** 2026-04-23 19:10:44  
 **Files scanned:** 97  
-**Files flagged:** 33  
+**Files flagged:** 32  
 
 ---
 
@@ -72,11 +72,10 @@
 
 ### 🚩 `poisonivy.json`
 
-**2 issue(s)**
+**1 issue(s)**
 
 | Line | Category | Action | Matched / Message | Full Line |
 |------|----------|--------|-------------------|-----------|
-| — | 📛 ID/Filename | REVIEW ONLY | `Near-miss — filename is "poisonivy.json" but id is "poisonivy_1" (90% similar). Did you mean id: "poisonivy"?` | `` |
 | 99 | 😠 Bullying/Targeting | REVIEW ONLY | `weak` | `"desc": "weak defense",` |
 
 ### 🚩 `russia.json`
@@ -221,14 +220,6 @@
 | Line | Category | Action | Matched / Message | Full Line |
 |------|----------|--------|-------------------|-----------|
 | — | 📛 ID/Filename | REVIEW ONLY | `Mismatch — filename is "jacob.json" but id is "Conquest". The "id" field must exactly match the filename (case-sensitive).` | `` |
-
-### 🚩 `jellyfish.json`
-
-**1 issue(s)**
-
-| Line | Category | Action | Matched / Message | Full Line |
-|------|----------|--------|-------------------|-----------|
-| — | 📛 ID/Filename | REVIEW ONLY | `Near-miss — filename is "jellyfish.json" but id is "jellyfish_1" (90% similar). Did you mean id: "jellyfish"?` | `` |
 
 ### 🚩 `jesus.json`
 
