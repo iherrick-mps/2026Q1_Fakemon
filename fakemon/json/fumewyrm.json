@@ -1,0 +1,90 @@
+{
+  "id": "fumewyrm",
+  "name": "Fumewyrm",
+  "createdBy": "Ms. Herrick",
+  "emoji": "🐲",
+  "type": "Poison",
+  "hp": 90,
+  "atk": 100,
+  "speed": 105,
+  "defense": 8,
+  "accuracy": 92,
+  "color": "#7F77DD",
+  "description": "A serpentine dragon that breathes toxic miasma. Weakest body, most devious tactics.",
+  "moves": [
+    {
+      "id": "venom_fang",
+      "name": "💉 Venom Fang",
+      "desc": "A quick bite loaded with neurotoxin. High poison chance.",
+      "speed": "fast",
+      "damage": [10, 14],
+      "status": "poison",
+      "statusChance": 0.6
+    },
+    {
+      "id": "venom_drain",
+      "name": "🩸 Venom Drain",
+      "desc": "Injects venom and siphons HP back. May poison.",
+      "speed": "medium",
+      "damage": [12, 16],
+      "status": "poison",
+      "statusChance": 0.4
+    },
+    {
+      "id": "miasma_cloud",
+      "name": "😵 Miasma Cloud",
+      "desc": "Breathes a disorienting cloud of fumes.",
+      "speed": "medium",
+      "damage": [0, 0],
+      "status": "confuse",
+      "statusChance": 1.0
+    },
+    {
+      "id": "tail_swipe",
+      "name": "⚔️ Tail Swipe",
+      "desc": "A powerful sweep of the scaled tail. May cause flinch.",
+      "speed": "medium",
+      "damage": [18, 24],
+      "status": "flinch",
+      "statusChance": 0.3
+    },
+    {
+      "id": "smoke_shroud",
+      "name": "🌫️ Smoke Shroud",
+      "desc": "Obscures the field in thick smoke. Lowers enemy accuracy.",
+      "speed": "fast",
+      "damage": [0, 0],
+      "status": "statdwn",
+      "statusChance": 1.0,
+      "statTarget": "accuracy"
+    },
+    {
+      "id": "acid_spray",
+      "name": "🧪 Acid Spray",
+      "desc": "Spits a corrosive stream. May burn on contact.",
+      "speed": "medium",
+      "damage": [10, 18],
+      "status": "burn",
+      "statusChance": 0.4
+    },
+    {
+      "id": "wyrm_mend",
+      "name": "💊 Wyrm Mend",
+      "desc": "Coils and draws in ambient toxins to regenerate.",
+      "speed": "slow",
+      "damage": [-25, -25],
+      "status": null,
+      "statusChance": 0
+    },
+    {
+      "id": "speed_coil",
+      "name": "📈 Speed Coil",
+      "desc": "Tightens coils and springs into a faster stance. Speed rises.",
+      "speed": "fast",
+      "damage": [0, 0],
+      "status": "statup",
+      "statusChance": 1.0,
+      "statTarget": "speed"
+    }
+  ]
+}
