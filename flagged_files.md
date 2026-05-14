@@ -1,8 +1,8 @@
 # Fakemon Content Check Report
 
-**Generated:** 2026-05-14 22:27:03  
+**Generated:** 2026-05-14 22:38:12  
 **Files scanned:** 111  
-**Files flagged:** 31  
+**Files flagged:** 30  
 
 ---
 
@@ -235,14 +235,6 @@
 | Line | Category | Action | Matched / Message | Full Line |
 |------|----------|--------|-------------------|-----------|
 | — | 📛 ID/Filename | REVIEW ONLY | `Mismatch — filename is "rayan.json" but id is "draghsock". The "id" field must exactly match the filename (case-sensitive).` | `` |
-
-### 🚩 `sayed2.json`
-
-**1 issue(s)**
-
-| Line | Category | Action | Matched / Message | Full Line |
-|------|----------|--------|-------------------|-----------|
-| — | 📛 ID/Filename | REVIEW ONLY | `Case mismatch — filename is "sayed2.json" but id is "Sayed2". Did you mean id: "sayed2"?  (IDs are case-sensitive)` | `` |
 
 ### 🚩 `stormtrooper.json`
 
